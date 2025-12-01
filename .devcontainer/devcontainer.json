@@ -1,0 +1,6 @@
+{
+  "name": "Ubuntu Desktop",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+  "forwardPorts": [6080],
+  "postCreateCommand": "bash .devcontainer/setup.sh"
+}
